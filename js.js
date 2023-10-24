@@ -117,7 +117,7 @@ function seleccionarMusica(cancion) {
   const nuevoAudio = document.createElement('audio')
   const rutaCancion = `canciones/${cancion}.mp3`; 
   
-  
+  setTimeout((function) {
   nuevoAudio.src = rutaCancion;
   nuevoAudio.type= "audio/mpeg"
   nuevoAudio.setAttribute('controls', 'controls');
@@ -125,7 +125,7 @@ function seleccionarMusica(cancion) {
   base.style.height= '615px'
   reproductorAudio.innerHTML = '';
   reproductorAudio.appendChild(nuevoAudio);
-  nuevoAudio.play();
+  nuevoAudio.play();},3000)
   
 }
 
