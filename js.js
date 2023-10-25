@@ -9,7 +9,7 @@ const reproductorAudio = document.getElementById('reproductorAudio');
 const list = {
   //Las canciones deben usar camelcase
   rock: ["pirata","naufrago", "nadaEsGratisEnLaVida", "whatsername","elPibeDeLosAstilleros","malaVida","hotelCalifornia","campanasEnLaNoche"],
-  cumbia: ["18KilatesQueVasAHacer","elCuisPinata","elGucciLostOnYou"],
+  cumbia: ["18KilatesQueVasAHacer","elGucciLostOnYou"],
   regeton: ["fanaticaDeLoSensual", "ellaMeLevanto", "dileATuAmiga","laPregunta","encantadora"],
   electronica: ["panamericano", "sweetDisposition","redLights","infinity"],
   radio: ["borderline","soloUnMomento","onTopOfTheWorld","musicaDoBrasil","firstWorldProblems","shineOn","whenTheSunComesDown"],
